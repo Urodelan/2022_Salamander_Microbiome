@@ -1,0 +1,4 @@
+"Num_Predictors","Best","Stratum","Site","Week1","Week2","Site:Week1","Site:Week2","Num_Rhats_gt_1.05","Num_Eff_SS_ls_100","Num_params","Run_Time","WAIC"
+6,"No",1,1,1,1,1,1,1,1,1089,"0 hrs, 21 min, 9 sec",29392.3378090582
+5,"Yes",1,0,1,1,1,1,0,0,1021,"0 hrs, 16 min, 27 sec",29359.8904799484
+4,"No",1,0,1,0,1,1,70,133,953,"0 hrs, 17 min, 27 sec",29424.5956273085
