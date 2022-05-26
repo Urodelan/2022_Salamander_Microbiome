@@ -1,3 +1,0 @@
-Clustal Omega command used:
-cd /local/bin
-clustalo --in=WoodhamsAndSalamandersUniqueSequences5.fasta -o Alignment2.fasta --force --outfmt=fasta
