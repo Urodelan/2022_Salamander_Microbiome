@@ -1,0 +1,40 @@
+# This is the FastTree code line in Command Prompt:
+cd C:\Users\Kenen\Desktop\Microbiome\AntifungalPrediction\NewAttemptWithTrimmed\FastTree
+FastTree -gtr -nt < Alignment2.fasta > PhyloTree2
+
+Output:
+FastTree Version 2.1.11 No SSE3
+Alignment: standard input
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Generalized Time-Reversible, CAT approximation with 20 rate categories
+Ignored unknown character K (seen 10 times)
+Ignored unknown character M (seen 3 times)
+Ignored unknown character R (seen 33 times)
+Ignored unknown character S (seen 1 times)
+Ignored unknown character W (seen 9 times)
+Ignored unknown character X (seen 27 times)
+Ignored unknown character Y (seen 13 times)
+Initial topology in 57.19 seconds of  16010   013 seqs (at seed  16000)
+Refining topology: 56 rounds ME-NNIs, 2 rounds ME-SPRs, 28 rounds ML-NNIs
+Total branch-length 506.497 after 91.44 sec601 of 16011 splits, 5 changes (max delta 0.001)
+ML-NNI round 1: LogLk = -787469.346 NNIs 2825 max delta 13.56 Time 107.48nges (max delta 13.557)
+GTR Frequencies: 0.2552 0.1916 0.3563 0.1969ep 12 of 12
+GTR rates(ac ag at cg ct gt) 0.7249 1.7116 1.3749 0.5581 4.3091 1.0000
+Switched to using 20 rate categories (CAT approximation)20 of 20
+Rate categories were divided by 1.152 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -660498.021 NNIs 2088 max delta 17.47 Time 195.22nges (max delta 17.473)
+ML-NNI round 3: LogLk = -659530.575 NNIs 945 max delta 12.82 Time 217.87nges (max delta 12.818)
+ML-NNI round 4: LogLk = -659079.485 NNIs 537 max delta 11.65 Time 232.80ges (max delta 11.646)
+ML-NNI round 5: LogLk = -658931.908 NNIs 264 max delta 8.19 Time 240.71nges (max delta 8.193)
+ML-NNI round 6: LogLk = -658854.292 NNIs 124 max delta 6.98 Time 245.20nges (max delta 6.979)
+ML-NNI round 7: LogLk = -658842.545 NNIs 60 max delta 2.17 Time 247.62nges (max delta 2.174)
+ML-NNI round 8: LogLk = -658837.354 NNIs 20 max delta 2.25 Time 248.89ges (max delta 2.248)
+ML-NNI round 9: LogLk = -658837.446 NNIs 13 max delta 0.69 Time 249.66ges (max delta 0.693)
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 10: LogLk = -658325.042 NNIs 424 max delta 8.08 Time 289.67 (final)ax delta 8.081)
+Optimize all lengths: LogLk = -658295.612 Time 299.93
+Total time: 337.80 seconds Unique: 16013/16562 Bad splits: 34/16010 Worst delta-LogLk 4.916
