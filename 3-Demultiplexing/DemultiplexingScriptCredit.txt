@@ -1,1 +1,0 @@
-parse_barcodes_pairedend_16SITS.pl courtesy of the University of Wyoming Genome Technologies Laboratory (Laramie, WY)
