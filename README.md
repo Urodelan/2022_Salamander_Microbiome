@@ -1,2 +1,2 @@
 # Salamander_Microbiome_2022
-Code and Data for Salamander Microbiome Project
+Code and data for salamander skin-associated microbiome project.
