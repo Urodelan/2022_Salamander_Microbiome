@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Load R.
+module load R/4.0.2
+
+# Run the R script. The $1 variable is inheritted from parallel.
+R --vanilla --quiet --slave --file=Salamander_ITS_NB_Reg_Parallel.R --args $1 > NB_Reg_Logs/NB_Reg_Log_Taxon$1.Rout

@@ -1,0 +1,27 @@
+#!/bin/sh
+#SBATCH --job-name=Salamander_16S_NB_Reg_Parallel
+#SBATCH -t 144:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --mem-per-cpu=16G
+
+# Load parallel.
+module load parallel
+
+# Specify srun options.
+srun="srun --exclusive -N1 -n1"
+# -N1 -n1: Allocate a single core to each task.
+# --exclusive: Use different CPUs for each task.
+
+# Specify parallel options.
+parallel="parallel -N 1 --delay .2 -j $SLURM_NTASKS --joblog parallel_joblog --resume --resume-failed"
+# -N 1: Pass 1 argument to each job.
+# --delay .2: Provide a short delay between each job.
+# --j $SLURM_NTASKS: Set the number of concurrent parallel tasks to the number of CPUs allocated.
+# --joblog name: Creates a log of the parallel job.
+# --resume: Resumes running the script when resubmitted if the job log is found.
+# --resume-failed: Re-runs jobs that failed (e.g., if jobs timed-out).
+
+# Run tasks.
+$parallel "$srun Run_R_Script {1}" ::: {1..101}
+# Pass a single argument to the script as a sequence from 1 to 101.
