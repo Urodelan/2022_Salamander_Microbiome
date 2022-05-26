@@ -1,0 +1,1 @@
+See main text for the location of MiSeq and NextSeq raw sequence data.
