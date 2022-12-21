@@ -1,0 +1,5 @@
+"Num_Predictors","Best","Stratum","Age","LM","Site","Week1","Week2","Age:LM","Age:Site","LM:Site","Age:Week1","Age:Week2","LM:Week1","LM:Week2","Site:Week1","Site:Week2","Age:LM:Site","Age:LM:Week1","Age:LM:Week2","Age:Site:Week1","Age:Site:Week2","LM:Site:Week1","LM:Site:Week2","Age:LM:Site:Week1","Age:LM:Site:Week2","Num_Rhats_gt_1.05","Num_Eff_SS_ls_100","Num_params","Run_Time","WAIC"
+24,"No",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,103,"0 hrs, 9 min, 10 sec",5005.00917241149
+23,"No",1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,100,"0 hrs, 8 min, 27 sec",5002.49800841759
+22,"Yes",1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,97,"0 hrs, 8 min, 17 sec",4998.54642451792
+21,"No",1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,94,"0 hrs, 7 min, 56 sec",4998.81109399603
